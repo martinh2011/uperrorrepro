@@ -1,0 +1,6 @@
+FROM microsoft/windowsservercore
+
+ADD TestScript.ps1 TestScript.ps1
+
+CMD powershell.exe -command ./TestScript.ps1
+
